@@ -1,0 +1,16 @@
+```python
+S = input()
+S = S.upper()
+
+sum1 = 0
+
+alpa = ['ABC','DEF','GHI','JKL','MNO','PQRS','TUV','WXYZ']
+
+for j in S:
+    for k in alpa:
+        if j in k:
+            sum1 += alpa.index(k) + 3
+
+print(sum1)
+```
+`alpa를 아스키코드로 나눠주려했는데 안`
